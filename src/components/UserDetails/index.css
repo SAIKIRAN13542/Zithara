@@ -1,0 +1,124 @@
+/* Write your CSS here */
+* {
+    box-sizing: border-box;
+    margin: 0;
+  }
+
+.bg{
+    background-color: bisque;
+    min-height: 100vh;
+padding: 20px;
+ 
+}
+.main-heading{
+    font-family: 'Times New Roman', Times, serif;
+    color: blue;
+    text-align: center;
+    padding: 20px;
+}
+.head{
+    font-family:"Roboto";
+    color: red;
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+.lol{
+    font-family: "Roboto";
+    border:2px solid grey;
+    width: 300px;
+    text-align: center;
+    height: 30px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.but{
+    border:2px solid grey;
+    text-align: center;
+    height: 30px;
+    border-radius: 10px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.sort_by{
+    font-family: "Roboto";
+    font-weight: bold;
+    color: black;
+    margin-left: 350px;
+    margin-right: 10px;
+}
+
+.but1{
+    border:2px solid grey;
+    text-align: center;
+    height: 30px;
+    border-radius: 10px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px; 
+}
+  
+ 
+  th {
+    background-color: #f2f2f2;
+    padding: 12px;
+    text-align: left;
+    border: 1px solid black; 
+  }
+  
+  
+  tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  
+  td {
+    padding: 10px;
+    border: 1px solid black; 
+  }
+  
+  
+  tbody tr:hover {
+    background-color: #e0e0e0;
+  }
+
+  div ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  /
+  div ul li {
+    margin: 0 5px;
+    
+  }
+  
+  div ul li button {
+    padding: 8px 12px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    border: 2px solid black;
+    margin-right: 10px;
+  }
+  
+  div ul li button:hover {
+    background-color: #2980b9;
+  }
+  
+  div ul li button:disabled {
+    background-color: #bdc3c7;
+    cursor: not-allowed;
+  }
